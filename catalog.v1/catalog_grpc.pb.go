@@ -4,7 +4,7 @@
 // - protoc             v6.31.1
 // source: catalog.proto
 
-package pbs
+package catalog_v1
 
 import (
 	context "context"
