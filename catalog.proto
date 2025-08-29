@@ -1,7 +1,7 @@
 syntax = "proto3";
 
 package catalog;
-option go_package = "catalog.v1";
+option go_package = "github.com/kamilszymanski707/proto-lib/v1;catalogv1";
 
 message GetProductRequest {
   string id = 1;

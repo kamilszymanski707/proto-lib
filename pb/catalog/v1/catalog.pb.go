@@ -4,7 +4,7 @@
 // 	protoc        v6.31.1
 // source: catalog.proto
 
-package catalog_v1
+package catalogv1
 
 import (
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
@@ -147,8 +147,7 @@ const file_catalog_proto_rawDesc = "" +
 	"\x05price\x18\x04 \x01(\tR\x05price2W\n" +
 	"\x0eCatalogService\x12E\n" +
 	"\n" +
-	"GetProduct\x12\x1a.catalog.GetProductRequest\x1a\x1b.catalog.GetProductResponseB\fZ\n" +
-	"catalog.v1b\x06proto3"
+	"GetProduct\x12\x1a.catalog.GetProductRequest\x1a\x1b.catalog.GetProductResponseB5Z3github.com/kamilszymanski707/proto-lib/v1;catalogv1b\x06proto3"
 
 var (
 	file_catalog_proto_rawDescOnce sync.Once
