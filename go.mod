@@ -1,4 +1,4 @@
-module github.com/kamilszymanski707/proto-lib
+module proto_lib
 
 go 1.25.0
 
