@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+package basket;
+option go_package = "basket.v1";
+
+message GetBasketRequest {
+  string id = 1;
+}
+
+message BasketItem {
+    string product_id = 1;
+    string price = 2;
+    string link = 3;
+    string image_url = 4;
+    string quantity = 5;
+    string name = 6;
+}
+
+message GetBasketResponse {
+    string total_price = 1;
+    repeated BasketItem items = 2;
+}
+
+service BasketService {
+  rpc GetBasket(GetBasketRequest) returns (GetBasketResponse);
+}
